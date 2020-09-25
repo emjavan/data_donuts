@@ -26,7 +26,11 @@ us_counties=us_map(regions = "counties")
 typeof(us_counties$fips) # fips is also a character string, so we can join both data frames
 length(unique(us_counties$fips)) # 3142 total counties in US
 
-      # Why does the number of counties appear so much higher in NYT data? ####
+
+
+#### Why does the number of counties appear so much higher in NYT data? ####
+
+
 
 #### MERGE DATAFRAMES ####
 # We'll plot the most recent data on our map, but any date in the correct format will work e.g. "2020-05-04"
